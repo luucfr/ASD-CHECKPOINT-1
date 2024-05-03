@@ -81,7 +81,7 @@ docker exec $CONTAINER_NAME iptables -A INPUT -p tcp --sport $NEW_SSH_PORT -j AC
 
 ### 2.2 Question : quel autre moyen simple peux-tu mettre en œuvre pour augmenter la sécurité du conteneur ?
 
-Un autre moyen simple pour augmenter la sécurité du conteneur est de maintenir les logiciels et le système d'exploitation à jour, en appliquant régulièrement les correctifs de sécurité.
+Un autre moyen simple pour augmenter la sécurité du conteneur est de maintenir les logiciels et le système d'exploitation à jour, en appliquant régulièrement les correctifs de sécurité
 
 ## Partie 3 : Scripting Bash
 
